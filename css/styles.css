@@ -1,0 +1,16 @@
+/* styles.css */
+
+body {
+    background: #eee;
+}
+
+.container {
+    position: relative;
+    width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border: solid 1px #ccc;
+}
+
