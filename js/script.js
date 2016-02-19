@@ -14,8 +14,11 @@ $(function() {
             $(this).parent().parent().append('<li>' + item + '</li>');
             $(this).val('');
         }
-        
-        
-        
+    });
+    
+    $('#trash').droppable({
+        drop: function(event, ui){
+            ui.draggble.remove();
+    }
     });
 });
