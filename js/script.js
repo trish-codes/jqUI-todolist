@@ -12,6 +12,7 @@ $(function() {
             var item = $(this).val();
             
             $(this).parent().parent().append('<li>' + item + '</li>');
+            $(this).val('');
         }
         
         
