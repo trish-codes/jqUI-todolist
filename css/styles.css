@@ -2,8 +2,11 @@
 
 body {
     background: #eee;
+    font-family: 'Cinzel', serif;
 }
-
+h1{
+    font-family: 'Courgette', cursive;
+}
 .container {
     position: relative;
     width: 800px;
@@ -14,6 +17,20 @@ body {
     border: solid 1px #ccc;
 }
 
+.container:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.fixedContainer {
+    /* fixed height container
+       with overflow for scrollbar
+    */
+    height: 400px;
+    overflow: auto;
+}
+    
 .box {
     height: 120px;
     width: 120px;
@@ -24,3 +41,6 @@ body {
     cursor: pointer;
     display: inline-block;
 }
+
+
+
