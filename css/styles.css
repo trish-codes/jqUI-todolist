@@ -80,6 +80,11 @@ ul li:active {
     box-shadow: 0 10px -4px #111;
 }
 
+.placeholderBox {
+    background: #fc3;
+    height: 20px;
+    border: dashed 2px #777;
+}
 
 /* ---------
    TODO LIST
